@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background{
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.01)), url(images/Screenshot\ 2024-05-13\ 215839.png);
+    background-size: cover;
+    background-position: center;
+    height: none;
+}
+
+.separador{
+    padding: 5px;
+    position: absolute;
+    left: 720px;
+    top: 30px;
+    height: 250px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 50px;
+}
+
+.title {
+    color: aliceblue;
+    margin-left: 230px;
+    margin-top: 45px;
+    font-size: 80px;
+}
+
+.social-icon{
+    justify-items: center;
+    border-radius: 100px;
+    position: absolute;
+    top: 30px;
+    height: 200px;
+    width: 200px;
+}
+
+.separador:hover {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+.social-card {
+    top: 350px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.social-card:hover {
+    transform: scale(1.1);
+}
